@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio profissional de Marcelo Larocca, estudante de Análise e Desenvolvimento de Sistemas.">
+  <meta name="theme-color" content="#0b1220">
+  <title>Marcelo Larocca | Portfólio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="enhancements.css">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="header" id="inicio">
+    <nav class="nav container" aria-label="Navegação principal">
+      <a class="logo" href="#inicio" aria-label="Início">ML<span>.</span></a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="menu">
+        <a href="#sobre">Sobre</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+        <button class="theme-toggle" type="button" aria-label="Alternar tema" title="Alternar tema">☀</button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="intro-badge"><span aria-hidden="true">✦</span> Tecnologia · Criatividade · Aprendizado</p>
+          <p class="eyebrow">Olá, eu sou</p>
+          <h1>Marcelo<br><span>Larocca.</span></h1>
+          <p class="hero-text">Estudante de Análise e Desenvolvimento de Sistemas, interessado em transformar ideias em experiências digitais simples, úteis e acessíveis.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projetos">Ver projetos</a>
+            <a class="button secondary" href="#contato">Falar comigo</a>
+          </div>
+        </div>
+        <div class="hero-card reveal" aria-hidden="true">
+          <div class="identity-card"><span class="monogram">ML<span>✦</span></span><div><strong>Marcelo Larocca</strong><span>Um espaço para ideias ganharem forma.</span></div></div>
+          <div class="code-window">
+            <div class="window-bar"><i></i><i></i><i></i></div>
+            <pre><code><span class="purple">const</span> profissional = {
+  nome: <span class="green">"Marcelo"</span>,
+  área: <span class="green">"Desenvolvimento Web"</span>,
+  foco: [
+    <span class="green">"aprender"</span>,
+    <span class="green">"criar"</span>,
+    <span class="green">"compartilhar"</span>
+  ],
+  curiosidade: <span class="orange">true</span>
+};</code></pre>
+          </div>
+          <div class="floating-tag tag-one">HTML</div>
+          <div class="floating-tag tag-two">CSS</div>
+          <div class="floating-tag tag-three">JavaScript</div>
+        </div>
+      </div>
+      <a class="scroll-hint" href="#sobre" aria-label="Ir para a seção sobre">Role para conhecer <span>↓</span></a>
+    </section>
+
+    <section class="section alt" id="sobre">
+      <div class="container two-columns">
+        <div class="section-heading reveal">
+          <p class="eyebrow">01 — Sobre mim</p>
+          <h2>Aprendizado que vira <span>solução.</span></h2>
+        </div>
+        <div class="about-content reveal">
+          <p>Sou estudante do curso de Análise e Desenvolvimento de Sistemas e estou construindo minha trajetória na tecnologia. Gosto de entender problemas, organizar ideias e criar interfaces que funcionem bem em diferentes dispositivos.</p>
+          <p>Este portfólio nasceu como uma atividade extensionista voltada à inclusão digital. Além de apresentar meus trabalhos, ele demonstra como ferramentas gratuitas podem ajudar estudantes e profissionais a criarem presença na internet.</p>
+          <div class="stats">
+            <div><strong>ADS</strong><span>Formação</span></div>
+            <div><strong>3+</strong><span>Tecnologias</span></div>
+            <div><strong>100%</strong><span>Responsivo</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="habilidades">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">02 — Habilidades</p>
+          <h2>Ferramentas que uso para <span>construir.</span></h2>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card reveal"><span>01</span><h3>HTML5</h3><p>Estrutura semântica, acessível e organizada para páginas web.</p><div class="progress"><i style="--level: 88%"></i></div></article>
+          <article class="skill-card reveal"><span>02</span><h3>CSS3</h3><p>Layouts responsivos, animações e interfaces adaptadas ao usuário.</p><div class="progress"><i style="--level: 82%"></i></div></article>
+          <article class="skill-card reveal"><span>03</span><h3>JavaScript</h3><p>Interatividade, manipulação do DOM e lógica no navegador.</p><div class="progress"><i style="--level: 72%"></i></div></article>
+          <article class="skill-card reveal"><span>04</span><h3>Git & GitHub</h3><p>Versionamento de código, colaboração e publicação de projetos.</p><div class="progress"><i style="--level: 70%"></i></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="projetos">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">03 — Projetos</p>
+          <h2>Ideias colocadas em <span>prática.</span></h2>
+        </div>
+        <div class="filters reveal" role="group" aria-label="Filtrar projetos">
+          <button class="filter active" data-filter="todos">Todos</button>
+          <button class="filter" data-filter="web">Web</button>
+          <button class="filter" data-filter="educacao">Educação</button>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card reveal" data-category="web educacao">
+            <div class="project-visual visual-one"><span>ML.</span></div>
+            <div class="project-body"><div class="project-meta"><span>Web</span><span>2026</span></div><h3>Portfólio Pessoal</h3><p>Site responsivo para apresentação profissional, desenvolvido com tecnologias web fundamentais.</p><ul><li>HTML</li><li>CSS</li><li>JavaScript</li></ul><a href="https://github.com/SEU-USUARIO" target="_blank" rel="noopener">Ver código <span>↗</span></a></div>
+          </article>
+          <article class="project-card reveal" data-category="educacao">
+            <div class="project-visual visual-two"><span>&lt;/&gt;</span></div>
+            <div class="project-body"><div class="project-meta"><span>Educação</span><span>2026</span></div><h3>Guia de Presença Digital</h3><p>Material introdutório para ajudar estudantes a planejar e publicar seu primeiro portfólio.</p><ul><li>Inclusão digital</li><li>GitHub</li></ul><a href="#guia">Conhecer guia <span>↓</span></a></div>
+          </article>
+          <article class="project-card reveal" data-category="web">
+            <div class="project-visual visual-three"><span>+</span></div>
+            <div class="project-body"><div class="project-meta"><span>Próximo projeto</span><span>Em breve</span></div><h3>Nova solução</h3><p>Espaço reservado para o próximo projeto desenvolvido durante minha formação.</p><ul><li>Em planejamento</li></ul><a href="#contato">Acompanhar <span>→</span></a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section guide" id="guia">
+      <div class="container guide-grid">
+        <div class="section-heading reveal"><p class="eyebrow">04 — Inclusão digital</p><h2>Crie sua presença na internet em <span>quatro passos.</span></h2><p>Um caminho gratuito para estudantes e iniciantes publicarem seus trabalhos.</p></div>
+        <ol class="steps reveal">
+          <li><span>1</span><div><h3>Planeje</h3><p>Defina seu objetivo, competências e projetos.</p></div></li>
+          <li><span>2</span><div><h3>Construa</h3><p>Use HTML, CSS e JavaScript para criar a página.</p></div></li>
+          <li><span>3</span><div><h3>Versione</h3><p>Envie os arquivos para um repositório no GitHub.</p></div></li>
+          <li><span>4</span><div><h3>Publique</h3><p>Ative o GitHub Pages e compartilhe o endereço.</p></div></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section" id="trajetoria">
+      <div class="container two-columns">
+        <div class="section-heading reveal"><p class="eyebrow">05 — Em construção</p><h2>Cada passo abre <span>possibilidades.</span></h2><p>Aprender, experimentar e compartilhar: um caminho que continua a cada novo projeto.</p><a class="text-link" href="#projetos">Explorar os projetos ↗</a></div>
+        <ol class="timeline reveal">
+          <li><span class="timeline-label">Base</span><h3>Conhecer as ferramentas</h3><p>Entender como estrutura, estilo e interação se conectam em uma página web.</p></li>
+          <li><span class="timeline-label">Prática</span><h3>Dar forma às ideias</h3><p>Experimentar layouts, personalizar conteúdo e observar o resultado no navegador.</p></li>
+          <li><span class="timeline-label">Próximos passos</span><h3>Continuar evoluindo</h3><p>Adicionar novos trabalhos, documentar aprendizados e aprimorar a acessibilidade.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section alt" id="perguntas">
+      <div class="container two-columns">
+        <div class="section-heading reveal"><p class="eyebrow">06 — Para começar</p><h2>Pequenas dúvidas.<br><span>Novas ideias.</span></h2><p>Um portfólio pode acompanhar você desde os primeiros aprendizados.</p></div>
+        <div class="faq reveal">
+          <details><summary>Preciso ter experiência profissional?</summary><p>Você pode começar com projetos escolares, acadêmicos ou pessoais. Explique o objetivo de cada trabalho e qual foi a sua participação.</p></details>
+          <details><summary>O que colocar em cada projeto?</summary><p>Apresente o problema, a solução, as ferramentas utilizadas e o que aprendeu. Inclua imagens ou links reais quando estiverem disponíveis.</p></details>
+          <details><summary>Como manter o portfólio atualizado?</summary><p>Revise sua apresentação e adicione trabalhos conforme forem concluídos. Mantenha os links funcionando e as informações de contato corretas.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contato">
+      <div class="container contact-grid">
+        <div class="section-heading reveal"><p class="eyebrow">07 — Contato</p><h2>Uma conversa pode ser o <span>começo.</span></h2><p>Tem uma ideia ou quer conversar sobre um projeto? Prepare sua mensagem pelo formulário.</p><p class="contact-note">O envio é concluído no seu aplicativo de e-mail.</p></div>
+        <form class="contact-form reveal" id="contact-form">
+          <label for="name">Nome</label><input id="name" name="name" type="text" placeholder="Seu nome" required>
+          <label for="email">E-mail</label><input id="email" name="email" type="email" placeholder="voce@exemplo.com" required>
+          <label for="message">Mensagem</label><textarea id="message" name="message" rows="5" placeholder="Escreva sua mensagem" required></textarea>
+          <button class="button primary" type="submit">Preparar mensagem <span>→</span></button>
+          <p class="form-status" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container"><a class="logo" href="#inicio">ML<span>.</span></a><p>Desenvolvido por Marcelo Larocca para fins acadêmicos.</p><p>Carambeí — Paraná · 2026</p></div></footer>
+  <a class="back-top" href="#inicio" aria-label="Voltar ao topo">↑</a>
+  <script src="script.js"></script>
+</body>
+</html>
